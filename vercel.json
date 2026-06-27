@@ -1,5 +1,19 @@
 {
   "outputDirectory": ".",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/gl/valdovino", "destination": "/gl/valdovino/concello" },
+    { "source": "/gl/valdovino/", "destination": "/gl/valdovino/concello" },
+    { "source": "/es/valdovino", "destination": "/es/valdovino/concello" },
+    { "source": "/es/valdovino/", "destination": "/es/valdovino/concello" },
+    { "source": "/gl/club", "destination": "/gl/club/historia" },
+    { "source": "/gl/club/", "destination": "/gl/club/historia" },
+    { "source": "/es/club", "destination": "/es/club/historia" },
+    { "source": "/es/club/", "destination": "/es/club/historia" },
+    { "source": "/gl/equipos", "destination": "/gl/equipos/equipo?team=primer-equipo" },
+    { "source": "/gl/equipos/", "destination": "/gl/equipos/equipo?team=primer-equipo" },
+    { "source": "/es/equipos", "destination": "/es/equipos/equipo?team=primer-equipo" },
+    { "source": "/es/equipos/", "destination": "/es/equipos/equipo?team=primer-equipo" }
+  ]
 }
