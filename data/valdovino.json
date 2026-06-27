@@ -1,0 +1,140 @@
+{
+  "concello": {
+    "stats": [
+      { "value": "~7.000", "label_gl": "Habitantes", "label_es": "Habitantes" },
+      { "value": "92 km²", "label_gl": "Superficie", "label_es": "Superficie" },
+      { "value": "5",      "label_gl": "Parroquias",  "label_es": "Parroquias" },
+      { "value": "38 km",  "label_gl": "De Ferrol",   "label_es": "De Ferrol" }
+    ],
+    "gl": {
+      "intro": "Valdoviño é un concello da comarca de Ferrolterra, na provincia de A Coruña. Situado na costa norte de Galicia, destaca polo seu extraordinario patrimonio natural, as súas praias e a súa rica cultura atlántica.",
+      "sections": [
+        {
+          "icon": "map-pin",
+          "title": "Situación xeográfica",
+          "text": "Valdoviño está situado na costa norte de Galicia, a 38 km de Ferrol e a 70 km de A Coruña. Limita ao norte co océano Atlántico e conta con excelentes accesos por autovía e estradas nacionais."
+        },
+        {
+          "icon": "building",
+          "title": "Concello e servizos",
+          "text": "O Concello de Valdoviño ofrece todos os servizos municipais: educación, cultura, deportes, servizos sociais e medioambiente. A casa consistorial atópase no centro da vila de Valdoviño."
+        },
+        {
+          "icon": "leaf",
+          "title": "Medioambiente",
+          "text": "O municipio conta con varios espazos naturais protexidos, entre eles a Lagoa de A Frouxeira (Rede Natura 2000 e RAMSAR) e varios tramos de costa incluídos no Espazo Natural de Interese Local."
+        }
+      ]
+    },
+    "es": {
+      "intro": "Valdoviño es un municipio de la comarca de Ferrolterra, en la provincia de A Coruña. Situado en la costa norte de Galicia, destaca por su extraordinario patrimonio natural, sus playas y su rica cultura atlántica.",
+      "sections": [
+        {
+          "icon": "map-pin",
+          "title": "Situación geográfica",
+          "text": "Valdoviño está situado en la costa norte de Galicia, a 38 km de Ferrol y a 70 km de A Coruña. Linda al norte con el océano Atlántico y cuenta con excelentes accesos por autopista y carreteras nacionales."
+        },
+        {
+          "icon": "building",
+          "title": "Ayuntamiento y servicios",
+          "text": "El Ayuntamiento de Valdoviño ofrece todos los servicios municipales: educación, cultura, deportes, servicios sociales y medioambiente. El consistorio se encuentra en el centro de la villa de Valdoviño."
+        },
+        {
+          "icon": "leaf",
+          "title": "Medioambiente",
+          "text": "El municipio cuenta con varios espacios naturales protegidos, entre ellos la Laguna de A Frouxeira (Red Natura 2000 y RAMSAR) y varios tramos de costa incluidos en el Espacio Natural de Interés Local."
+        }
+      ]
+    }
+  },
+
+  "praias": {
+    "gl": {
+      "intro": "Valdoviño conta con algunhas das mellores praias e espazos naturais do norte de Galicia. Surf de clase mundial, lagoas protexidas e praias salvaxes esperan a cada visitante."
+    },
+    "es": {
+      "intro": "Valdoviño cuenta con algunas de las mejores playas y espacios naturales del norte de Galicia. Surf de clase mundial, lagunas protegidas y playas salvajes esperan a cada visitante."
+    },
+    "items": [
+      {
+        "name": "Praia de Pantín",
+        "icon": "waves",
+        "desc_gl": "Mundialmente coñecida polo Campionato do Mundo de Surf (WSL). Area fina branca, ondas de calidade e contorna espectacular entre dunas e piñeiral. Bandeira Azul cada tempada.",
+        "desc_es": "Mundialmente conocida por el Campeonato del Mundo de Surf (WSL). Arena blanca y fina, olas de calidad y entorno espectacular entre dunas y pinar. Bandera Azul cada temporada.",
+        "tags_gl": ["Surf", "Bandeira Azul", "Dunas", "WSL"],
+        "tags_es": ["Surf", "Bandera Azul", "Dunas", "WSL"]
+      },
+      {
+        "name": "Lagoa de A Frouxeira",
+        "icon": "bird",
+        "desc_gl": "Lagoa litoral integrada na Rede Natura 2000 e espazo RAMSAR. Hábitat para máis de 200 especies de aves migratorias e residentes. Percorridos de sendeirismo e observación de aves.",
+        "desc_es": "Laguna litoral integrada en la Red Natura 2000 y espacio RAMSAR. Hábitat para más de 200 especies de aves migratorias y residentes. Rutas de senderismo y observación de aves.",
+        "tags_gl": ["Rede Natura 2000", "RAMSAR", "Aves", "Sendeirismo"],
+        "tags_es": ["Red Natura 2000", "RAMSAR", "Aves", "Senderismo"]
+      },
+      {
+        "name": "Praia de Vilarrube",
+        "icon": "waves",
+        "desc_gl": "Praia salvaxe e tranquila, ideal para familias. Augas cristalinas, moito espazo e menos afluencia que Pantín. Acceso por pista de terra entre piñeiros.",
+        "desc_es": "Playa salvaje y tranquila, ideal para familias. Aguas cristalinas, mucho espacio y menor afluencia que Pantín. Acceso por pista de tierra entre pinos.",
+        "tags_gl": ["Familiar", "Tranquila", "Salvaxe"],
+        "tags_es": ["Familiar", "Tranquila", "Salvaje"]
+      },
+      {
+        "name": "Praia de Eirón",
+        "icon": "waves",
+        "desc_gl": "Pequena praia de area dourada entre formacións rochosas, cunha contorna natural privilexiada. Ideal para bañarse en días de calma.",
+        "desc_es": "Pequeña playa de arena dorada entre formaciones rocosas, con un entorno natural privilegiado. Ideal para bañarse en días de calma.",
+        "tags_gl": ["Recollida", "Rochosa", "Tranquila"],
+        "tags_es": ["Recogida", "Rocosa", "Tranquila"]
+      }
+    ]
+  },
+
+  "cultura": {
+    "gl": {
+      "intro": "Valdoviño ten unha rica vida cultural e festiva que reflicte a identidade galega do concello. Eventos deportivos de talla mundial, tradicións ancestrais e unha comunidade unida fan de Valdoviño un lugar especial."
+    },
+    "es": {
+      "intro": "Valdoviño tiene una rica vida cultural y festiva que refleja la identidad gallega del municipio. Eventos deportivos de talla mundial, tradiciones ancestrales y una comunidad unida hacen de Valdoviño un lugar especial."
+    },
+    "items": [
+      {
+        "name_gl": "Campionato de Surf de Pantín",
+        "name_es": "Campeonato de Surf de Pantín",
+        "icon": "award",
+        "desc_gl": "Evento deportivo internacional de referencia mundial que se celebra na Praia de Pantín cada setembro. Atrae a deportistas e público de todo o mundo e é a cita deportiva máis importante do ano en Valdoviño.",
+        "desc_es": "Evento deportivo internacional de referencia mundial que se celebra en la Playa de Pantín cada septiembre. Atrae a deportistas y público de todo el mundo y es la cita deportiva más importante del año en Valdoviño.",
+        "when_gl": "Setembro",
+        "when_es": "Septiembre"
+      },
+      {
+        "name_gl": "Festas Patronais de Valdoviño",
+        "name_es": "Fiestas Patronales de Valdoviño",
+        "icon": "party-popper",
+        "desc_gl": "As festas patronais celébrase en verán con orquestas, gastronomía local, verbenas, fuegos artificiais e actividades para todas as idades. O punto álxido do calendario festivo do concello.",
+        "desc_es": "Las fiestas patronales se celebran en verano con orquestas, gastronomía local, verbenas, fuegos artificiales y actividades para todas las edades. El punto álgido del calendario festivo del municipio.",
+        "when_gl": "Agosto",
+        "when_es": "Agosto"
+      },
+      {
+        "name_gl": "Romaría da Frouxeira",
+        "name_es": "Romería de la Frouxeira",
+        "icon": "music",
+        "desc_gl": "Tradicional romaría galega na contorna da Lagoa de A Frouxeira, con música de gaita, baile e traxes tradicionais. Un acontecemento que mantén viva a cultura popular galega.",
+        "desc_es": "Tradicional romería gallega en el entorno de la Laguna de A Frouxeira, con música de gaita, baile y trajes tradicionales. Un acontecimiento que mantiene viva la cultura popular gallega.",
+        "when_gl": "Xuño",
+        "when_es": "Junio"
+      },
+      {
+        "name_gl": "Mercado Local de Produtores",
+        "name_es": "Mercado Local de Productores",
+        "icon": "shopping-bag",
+        "desc_gl": "Mercado periódico con produtos artesanais, alimentación local e manualidades de produtores da comarca. Queixos, mel, conservas e artesanía directamente do produtor.",
+        "desc_es": "Mercado periódico con productos artesanales, alimentación local y artesanía de productores de la comarca. Quesos, miel, conservas y artesanía directamente del productor.",
+        "when_gl": "Mensual",
+        "when_es": "Mensual"
+      }
+    ]
+  }
+}

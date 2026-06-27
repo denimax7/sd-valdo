@@ -1,0 +1,142 @@
+{
+  "historia": {
+    "gl": {
+      "intro": "A S.D. Valdoviño é un dos clubs de fútbol máis queridos de Ferrolterra. Dende a súa fundación, representou con orgullo ao concello de Valdoviño no fútbol galego, forxando xeracións de xogadores e creando comunidade ao redor do deporte.",
+      "milestones": [
+        {
+          "year": "1967",
+          "title": "Fundación",
+          "text": "Nace a Sociedade Deportiva Valdoviño da man dun grupo de afeccionados comprometidos co deporte local. O Campo Municipal convértese no fogar do novo club, que adopta a camiseta laranxa como símbolo de identidade."
+        },
+        {
+          "year": "Décadas 70–80",
+          "title": "Crecemento e canteira",
+          "text": "O club aposta pola formación e crea os primeiros equipos de base. A canteira empieza a forxar xogadores que máis tarde defenderán os colores do primeiro equipo, consolidando o ADN do club."
+        },
+        {
+          "year": "Anos 90–2000",
+          "title": "Consolidación deportiva",
+          "text": "A S.D. Valdoviño consolídase nas categorías rexionais de FUTGAL e convértese en referente no fútbol da comarca de Ferrolterra. O club crece en número de socios e afección."
+        },
+        {
+          "year": "2010–2020",
+          "title": "Expansión de categorías",
+          "text": "O clube expande a súa estrutura con novos equipos de base: fútbol sala, prebenxamín, benxamín, e potencia o fútbol feminino. O número de fichas inscritas alcanza máximos históricos."
+        },
+        {
+          "year": "2025–2026",
+          "title": "Tempada actual",
+          "text": "A S.D. Valdoviño afronta a tempada 2025-2026 na Primeira FUTGAL Grupo I coa ilusión renovada. Oito equipos, centos de xogadores e toda a afección detrás dunha mesma paixón."
+        }
+      ]
+    },
+    "es": {
+      "intro": "La S.D. Valdoviño es uno de los clubs de fútbol más queridos de Ferrolterra. Desde su fundación, ha representado con orgullo al municipio de Valdoviño en el fútbol gallego, forjando generaciones de jugadores y creando comunidad alrededor del deporte.",
+      "milestones": [
+        {
+          "year": "1967",
+          "title": "Fundación",
+          "text": "Nace la Sociedad Deportiva Valdoviño de la mano de un grupo de aficionados comprometidos con el deporte local. El Campo Municipal se convierte en el hogar del nuevo club, que adopta la camiseta naranja como símbolo de identidad."
+        },
+        {
+          "year": "Décadas 70–80",
+          "title": "Crecimiento y cantera",
+          "text": "El club apuesta por la formación y crea los primeros equipos de base. La cantera empieza a forjar jugadores que más tarde defenderán los colores del primer equipo, consolidando el ADN del club."
+        },
+        {
+          "year": "Años 90–2000",
+          "title": "Consolidación deportiva",
+          "text": "La S.D. Valdoviño se consolida en las categorías regionales de FUTGAL y se convierte en referente en el fútbol de la comarca de Ferrolterra. El club crece en número de socios y afición."
+        },
+        {
+          "year": "2010–2020",
+          "title": "Expansión de categorías",
+          "text": "El club expande su estructura con nuevos equipos de base: fútbol sala, prebenjamín, benjamín, y potencia el fútbol femenino. El número de fichas inscritas alcanza máximos históricos."
+        },
+        {
+          "year": "2025–2026",
+          "title": "Temporada actual",
+          "text": "La S.D. Valdoviño afronta la temporada 2025-2026 en la Primera FUTGAL Grupo I con la ilusión renovada. Ocho equipos, cientos de jugadores y toda la afición detrás de una misma pasión."
+        }
+      ]
+    }
+  },
+
+  "instalacions": {
+    "gl": {
+      "intro": "O club conta con instalacións deportivas ao servizo de todos os equipos e da afección. Estamos traballando para mellorar e ampliar as nosas infraestruturas."
+    },
+    "es": {
+      "intro": "El club cuenta con instalaciones deportivas al servicio de todos los equipos y de la afición. Estamos trabajando para mejorar y ampliar nuestras infraestructuras."
+    },
+    "items": [
+      {
+        "name_gl": "Campo Municipal de Valdoviño",
+        "name_es": "Campo Municipal de Valdoviño",
+        "icon": "map-pin",
+        "desc_gl": "Campo principal do club, sede oficial de todos os partidos como local. Situado no centro de Valdoviño con fácil acceso e aparcamento gratuíto.",
+        "desc_es": "Campo principal del club, sede oficial de todos los partidos como local. Situado en el centro de Valdoviño con fácil acceso y aparcamiento gratuito.",
+        "details_gl": ["Céspede natural", "Vestiarios renovados", "Iluminación artificial para partidos nocturnos", "Aparcamento gratuíto", "Tribuna cuberta"],
+        "details_es": ["Césped natural", "Vestuarios renovados", "Iluminación artificial para partidos nocturnos", "Aparcamiento gratuito", "Tribuna cubierta"]
+      },
+      {
+        "name_gl": "Campo de adestramento",
+        "name_es": "Campo de entrenamiento",
+        "icon": "grid-3x3",
+        "desc_gl": "Campo auxiliar de terra utilizado polos equipos de base para os adestramento diarios. Contiguo ao campo principal.",
+        "desc_es": "Campo auxiliar de tierra utilizado por los equipos de base para los entrenamientos diarios. Contiguo al campo principal.",
+        "details_gl": ["Superficie de terra", "Uso exclusivo para adestramento", "Dispoñible todos os días", "Balizas e material de adestramento"],
+        "details_es": ["Superficie de tierra", "Uso exclusivo para entrenamiento", "Disponible todos los días", "Balizas y material de entrenamiento"]
+      }
+    ]
+  },
+
+  "directiva": {
+    "gl": {
+      "intro": "A xunta directiva da S.D. Valdoviño é o órgano de goberno do club, responsable de tomar as decisións estratéxicas e garantir o bo funcionamento da entidade en beneficio de socios, xogadores e afección."
+    },
+    "es": {
+      "intro": "La junta directiva de la S.D. Valdoviño es el órgano de gobierno del club, responsable de tomar las decisiones estratégicas y garantizar el buen funcionamiento de la entidad en beneficio de socios, jugadores y afición."
+    },
+    "members": [
+      { "name": "Por confirmar", "role_gl": "Presidente/a", "role_es": "Presidente/a", "email": "" },
+      { "name": "Por confirmar", "role_gl": "Vicepresidente/a", "role_es": "Vicepresidente/a", "email": "" },
+      { "name": "Por confirmar", "role_gl": "Secretario/a", "role_es": "Secretario/a", "email": "" },
+      { "name": "Por confirmar", "role_gl": "Tesoureiro/a", "role_es": "Tesorero/a", "email": "" },
+      { "name": "Por confirmar", "role_gl": "Vocal de Equipos", "role_es": "Vocal de Equipos", "email": "" },
+      { "name": "Por confirmar", "role_gl": "Vocal de Infraestruturas", "role_es": "Vocal de Infraestructuras", "email": "" }
+    ]
+  },
+
+  "corpo_tecnico": {
+    "gl": {
+      "intro": "O persoal técnico da S.D. Valdoviño traballa día a día para o desenvolvemento deportivo de todos os equipos do club, dende o prebenxamín ata o primeiro equipo."
+    },
+    "es": {
+      "intro": "El personal técnico de la S.D. Valdoviño trabaja día a día para el desarrollo deportivo de todos los equipos del club, desde el prebenjamín hasta el primer equipo."
+    },
+    "staff": [
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Primeiro equipo", "team_es": "Primer equipo" },
+      { "name": "Por confirmar", "role_gl": "Preparador/a físico/a", "role_es": "Preparador/a físico/a", "team_gl": "Primeiro equipo", "team_es": "Primer equipo" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a porteiros/as", "role_es": "Entrenador/a porteros/as", "team_gl": "Primeiro equipo", "team_es": "Primer equipo" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Xuvenil", "team_es": "Juvenil" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Cadete", "team_es": "Cadete" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Infantil", "team_es": "Infantil" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Alevín", "team_es": "Alevín" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Benxamín", "team_es": "Benjamín" },
+      { "name": "Por confirmar", "role_gl": "Adestrador/a", "role_es": "Entrenador/a", "team_gl": "Prebenxamín", "team_es": "Prebenjamín" }
+    ]
+  },
+
+  "contacto": {
+    "address": "Estrada da Frouxeira s/n, 15552 Valdoviño, A Coruña",
+    "email": "info@sdvaldovino.gal",
+    "phone": "",
+    "maps_url": "https://maps.google.com/?q=Campo+Municipal+de+Valdoviño",
+    "social": {
+      "instagram": "https://instagram.com/sd.valdovino",
+      "twitter": "https://twitter.com/sd_valdovino",
+      "facebook": "https://facebook.com"
+    }
+  }
+}

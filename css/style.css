@@ -1371,3 +1371,330 @@ small { font-size: 0.875rem; }
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ===================================================
+   PÁXINAS DINÁMICAS — club, valdovino
+   =================================================== */
+
+/* Cabeceira de páxina interior */
+.inner-hero {
+  background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 4.5rem 0 3rem;
+  text-align: center;
+}
+.inner-hero .kicker { justify-content: center; margin-bottom: 0.5rem; }
+.inner-hero h1 { font-size: clamp(1.875rem, 4vw, 3rem); margin: 0 0 0.75rem; }
+.inner-hero .lead {
+  color: var(--muted);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+/* Layout interior */
+.inner-content {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 6rem;
+}
+
+/* Texto introductorio */
+.page-intro {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--muted);
+  max-width: 60ch;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+/* ---- Historia: línea de tempo ---- */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  max-width: 52rem;
+  margin: 0 auto;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--primary-400), var(--primary-700));
+  border-radius: 2px;
+}
+.timeline-item {
+  position: relative;
+  padding: 0 0 2.5rem 1.75rem;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -0.4375rem;
+  top: 0.375rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  background: var(--primary-400);
+  border-radius: 50%;
+  border: 2px solid var(--bg);
+}
+.timeline-year {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-400);
+  margin-bottom: 0.25rem;
+}
+.timeline-body h3 {
+  font-size: 1.125rem;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+.timeline-body p {
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ---- Instalacións ---- */
+.instalacions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.instalacion-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+.instalacion-card > [data-lucide] {
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary-400);
+  margin-bottom: 1rem;
+}
+.instalacion-card h3 { font-size: 1.0625rem; margin: 0 0 0.625rem; }
+.instalacion-card > p { color: var(--muted); font-size: 0.9375rem; line-height: 1.6; margin: 0 0 1rem; }
+.instalacion-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+.instalacion-card li {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  padding-left: 1rem;
+  position: relative;
+}
+.instalacion-card li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-400);
+  font-weight: 700;
+}
+
+/* ---- Directiva ---- */
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+.member-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.member-avatar {
+  width: 2.75rem;
+  height: 2.75rem;
+  background: var(--primary-900, rgba(255,120,0,0.12));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.member-avatar [data-lucide] { width: 1.25rem; height: 1.25rem; color: var(--primary-400); }
+.member-info { display: flex; flex-direction: column; gap: 0.25rem; }
+.member-info strong { font-size: 0.9375rem; color: var(--text); }
+.member-info span { font-size: 0.8125rem; color: var(--primary-400); font-weight: 500; }
+.member-info a { font-size: 0.75rem; color: var(--muted); text-decoration: none; }
+.member-info a:hover { color: var(--primary-300); }
+
+/* ---- Corpo técnico ---- */
+.staff-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.staff-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.staff-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--primary-900, rgba(255,120,0,0.12));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.staff-avatar [data-lucide] { width: 1.125rem; height: 1.125rem; color: var(--primary-400); }
+.staff-info { display: flex; flex-direction: column; gap: 0.125rem; }
+.staff-info strong { font-size: 0.9375rem; color: var(--text); }
+.staff-info > span { font-size: 0.8125rem; color: var(--muted); }
+.staff-team {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary-400) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ---- Contacto ---- */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.contact-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.contact-card [data-lucide] { width: 1.75rem; height: 1.75rem; color: var(--primary-400); }
+.contact-card strong { font-size: 0.9375rem; color: var(--text); }
+.contact-card p { color: var(--muted); font-size: 0.9375rem; line-height: 1.5; margin: 0; }
+.contact-card a { color: var(--primary-300); font-size: 0.9375rem; text-decoration: none; }
+.contact-card a:hover { text-decoration: underline; }
+.contact-social { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+
+/* ---- Concello: stats ---- */
+.concello-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 3rem;
+}
+.stat-block {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  text-align: center;
+}
+.stat-block .stat-value {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: var(--primary-300);
+  display: block;
+  line-height: 1;
+  margin-bottom: 0.375rem;
+}
+.stat-block .stat-label { font-size: 0.8125rem; color: var(--muted); }
+
+.concello-sections { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem; }
+.concello-section {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+.concello-section [data-lucide] { width: 1.5rem; height: 1.5rem; color: var(--primary-400); flex-shrink: 0; margin-top: 0.125rem; }
+.concello-section h3 { font-size: 1rem; margin: 0 0 0.5rem; }
+.concello-section p { color: var(--muted); font-size: 0.9375rem; line-height: 1.6; margin: 0; }
+
+/* ---- Praias / Natureza ---- */
+.praias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.praia-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+.praia-card > [data-lucide] { width: 2rem; height: 2rem; color: var(--primary-400); margin-bottom: 1rem; }
+.praia-card h3 { font-size: 1.0625rem; margin: 0 0 0.625rem; }
+.praia-card > p { color: var(--muted); font-size: 0.9375rem; line-height: 1.6; margin: 0 0 1rem; }
+.praia-tags { display: flex; gap: 0.375rem; flex-wrap: wrap; }
+.tag {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--primary-900, rgba(255,120,0,0.12));
+  color: var(--primary-300);
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+}
+
+/* ---- Cultura e festas ---- */
+.eventos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.evento-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+.evento-card > [data-lucide] { width: 2rem; height: 2rem; color: var(--primary-400); margin-bottom: 1rem; }
+.evento-card h3 { font-size: 1.0625rem; margin: 0 0 0.375rem; }
+.evento-when {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-400);
+  margin-bottom: 0.625rem;
+}
+.evento-card > p { color: var(--muted); font-size: 0.9375rem; line-height: 1.6; margin: 0; }
+
+/* Estado de carga */
+.loading-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--muted);
+}
+.loading-state [data-lucide] { width: 2rem; height: 2rem; margin-bottom: 0.75rem; opacity: 0.4; }
+
+.error-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--muted);
+}
+.error-state [data-lucide] { width: 2rem; height: 2rem; margin-bottom: 0.75rem; color: #ef4444; }
