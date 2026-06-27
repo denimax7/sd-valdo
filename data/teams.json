@@ -1,0 +1,100 @@
+{
+  "teams": [
+    {
+      "id": "primer-equipo",
+      "name_gl": "Primeiro equipo",
+      "name_es": "Primer equipo",
+      "category_gl": "Sénior masculino",
+      "category_es": "Sénior masculino",
+      "competition_gl": "Primeira FUTGAL Grupo I",
+      "competition_es": "Primera FUTGAL Grupo I",
+      "coach": "Por confirmar",
+      "desc_gl": "O primeiro equipo da S.D. Valdoviño disputa a Primeira FUTGAL Grupo I, a competición de referencia do fútbol afeccionado galego. Representando ao municipio con orgullo semana tras semana, o equipo naranja é o escaparate do club ante a provincia.",
+      "desc_es": "El primer equipo de la S.D. Valdoviño disputa la Primera FUTGAL Grupo I, la competición de referencia del fútbol aficionado gallego. Representando al municipio con orgullo semana tras semana, el equipo naranja es el escaparate del club ante la provincia."
+    },
+    {
+      "id": "xuvenil",
+      "name_gl": "Xuvenil",
+      "name_es": "Juvenil",
+      "category_gl": "Sub-18 masculino",
+      "category_es": "Sub-18 masculino",
+      "competition_gl": "Liga Xuvenil Galicia",
+      "competition_es": "Liga Juvenil Galicia",
+      "coach": "Por confirmar",
+      "desc_gl": "O equipo xuvenil é a antesala do primeiro equipo. Con xogadores de ata 18 anos, esta categoría forma parte esencial do proxecto deportivo do club e é o viveiro dos futuros valores da entidade.",
+      "desc_es": "El equipo juvenil es la antesala del primer equipo. Con jugadores de hasta 18 años, esta categoría forma parte esencial del proyecto deportivo del club y es el vivero de los futuros valores de la entidad."
+    },
+    {
+      "id": "cadete",
+      "name_gl": "Cadete",
+      "name_es": "Cadete",
+      "category_gl": "Sub-16 masculino",
+      "category_es": "Sub-16 masculino",
+      "competition_gl": "Liga Cadete Galicia",
+      "competition_es": "Liga Cadete Galicia",
+      "coach": "Por confirmar",
+      "desc_gl": "O equipo cadete compete na Liga Cadete de Galicia. Nunha etapa clave do desenvolvemento futbolístico, o cadete aposta pola formación integral dos xogadores e o xogo colectivo.",
+      "desc_es": "El equipo cadete compite en la Liga Cadete de Galicia. En una etapa clave del desarrollo futbolístico, el cadete apuesta por la formación integral de los jugadores y el juego colectivo."
+    },
+    {
+      "id": "infantil",
+      "name_gl": "Infantil",
+      "name_es": "Infantil",
+      "category_gl": "Sub-14 masculino",
+      "category_es": "Sub-14 masculino",
+      "competition_gl": "Liga Infantil Galicia",
+      "competition_es": "Liga Infantil Galicia",
+      "coach": "Por confirmar",
+      "desc_gl": "O equipo infantil introduce aos xogadores nas bases do fútbol competitivo. Diversión, esforzo e aprendizaxe son os piares desta categoría na S.D. Valdoviño.",
+      "desc_es": "El equipo infantil introduce a los jugadores en las bases del fútbol competitivo. Diversión, esfuerzo y aprendizaje son los pilares de esta categoría en la S.D. Valdoviño."
+    },
+    {
+      "id": "alevin",
+      "name_gl": "Alevín",
+      "name_es": "Alevín",
+      "category_gl": "Sub-12 masculino",
+      "category_es": "Sub-12 masculino",
+      "competition_gl": "Liga Alevín Galicia",
+      "competition_es": "Liga Alevín Galicia",
+      "coach": "Por confirmar",
+      "desc_gl": "Os alevíns son a paixón do fútbol base en Valdoviño. Con xogadores de entre 10 e 12 anos, o equipo alevín transmite os valores do deporte e o traballo en equipo desde idades temperás.",
+      "desc_es": "Los alevines son la pasión del fútbol base en Valdoviño. Con jugadores de entre 10 y 12 años, el equipo alevín transmite los valores del deporte y el trabajo en equipo desde edades tempranas."
+    },
+    {
+      "id": "benxamin",
+      "name_gl": "Benxamín",
+      "name_es": "Benjamín",
+      "category_gl": "Sub-10 masculino",
+      "category_es": "Sub-10 masculino",
+      "competition_gl": "Liga Benxamín Galicia",
+      "competition_es": "Liga Benjamín Galicia",
+      "coach": "Por confirmar",
+      "desc_gl": "Os máis pequenos do fútbol 7. Os benxamíns aprenden os fundamentos do xogo en campos reducidos, priorizando sempre a diversión e o desenvolvemento persoal de cada neno.",
+      "desc_es": "Los más pequeños del fútbol 7. Los benjamines aprenden los fundamentos del juego en campos reducidos, priorizando siempre la diversión y el desarrollo personal de cada niño."
+    },
+    {
+      "id": "prebenxamin",
+      "name_gl": "Prebenxamín",
+      "name_es": "Prebenjamín",
+      "category_gl": "Sub-8 masculino",
+      "category_es": "Sub-8 masculino",
+      "competition_gl": "Liga Prebenxamín Galicia",
+      "competition_es": "Liga Prebenjamín Galicia",
+      "coach": "Por confirmar",
+      "desc_gl": "Os prebenxamíns son a canteira máis nova da S.D. Valdoviño. Con menos de 8 anos, estes cativos dan os seus primeiros toques ao balón nunha contorna de xogo e compañeirismo.",
+      "desc_es": "Los prebenjamines son la cantera más joven de la S.D. Valdoviño. Con menos de 8 años, estos chavales dan sus primeros toques al balón en un entorno de juego y compañerismo."
+    },
+    {
+      "id": "veteranos",
+      "name_gl": "Veteranos",
+      "name_es": "Veteranos",
+      "category_gl": "Veteranos masculino",
+      "category_es": "Veteranos masculino",
+      "competition_gl": "Torneos de Veteranos",
+      "competition_es": "Torneos de Veteranos",
+      "coach": "Por confirmar",
+      "desc_gl": "O equipo de veteranos mantén viva a chama do fútbol entre os xogadores de maior experiencia do club. Participan en torneos locais e amigables, con moita ilusión e o mesmo amor polo equipo de sempre.",
+      "desc_es": "El equipo de veteranos mantiene viva la llama del fútbol entre los jugadores de mayor experiencia del club. Participan en torneos locales y amistosos, con mucha ilusión y el mismo amor por el equipo de siempre."
+    }
+  ]
+}
