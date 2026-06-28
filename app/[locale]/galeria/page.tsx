@@ -6,6 +6,8 @@ import { createT } from '@/lib/i18n';
 import { LOCALES, type Locale, isLocale } from '@/lib/locales';
 import { notFound } from 'next/navigation';
 
+export const revalidate = 120;
+
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
 }

@@ -8,9 +8,11 @@ import { fetchAlbums, fetchAlbum } from '@/lib/gallery';
 import { createT } from '@/lib/i18n';
 import { LOCALES, type Locale, isLocale } from '@/lib/locales';
 
+export const revalidate = 120;
+export const dynamicParams = true;
+
 interface Params { locale: string; slug: string }
 
-// Pre-renderiza todas as combinacións locale × slug en build time
 export async function generateStaticParams(): Promise<Params[]> {
   const albums = await fetchAlbums();
   const out: Params[] = [];
@@ -18,11 +20,6 @@ export async function generateStaticParams(): Promise<Params[]> {
     for (const album of albums) {
       out.push({ locale, slug: album.slug });
     }
-  }
-  // Placeholder so static export doesn't fail when Google Drive isn't configured.
-  // These paths hit notFound() at render time, producing clean 404 pages.
-  if (out.length === 0) {
-    return LOCALES.map((locale) => ({ locale, slug: '__empty__' }));
   }
   return out;
 }
