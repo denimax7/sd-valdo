@@ -34,8 +34,8 @@ const content = {
   },
 };
 
-const LAT = 43.6019;
-const LNG = -8.1342;
+const LAT = 43.594334;
+const LNG = -8.1462981;
 const mapSrc = `https://www.openstreetmap.org/export/embed.html?bbox=${LNG - 0.012},${LAT - 0.006},${LNG + 0.012},${LAT + 0.006}&layer=mapnik&marker=${LAT},${LNG}`;
 
 export default function ContactoPage({ params }: { params: { locale: string } }) {
