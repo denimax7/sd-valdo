@@ -42,7 +42,12 @@ export function CalendarView({ matches, locale }: Props) {
   const t = createT(locale);
 
   const [team, setTeam] = useState<string>('all');
-  const [month, setMonth] = useState<string>('all');
+  const [month, setMonth] = useState<string>(() => {
+    const now = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}`;
+    const available = [...new Set(matches.map((m) => monthKey(m.kickoff)))].sort();
+    if (available.includes(now)) return now;
+    return available.find((m) => m >= now) ?? 'all';
+  });
   const [side, setSide] = useState<Side>('all');
 
   const months = useMemo(() => {
