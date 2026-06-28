@@ -70,9 +70,22 @@ export async function fetchAlbums(): Promise<Album[]> {
   const albums: Album[] = await Promise.all(
     folders.map(async (folder) => {
       const name = folder.name;
-      const dateMatch = name.match(/^(\d{4}-\d{2}-\d{2})/);
-      const date = dateMatch ? dateMatch[1]! : '1970-01-01';
-      const titleRaw = dateMatch ? name.slice(11).trim() : name;
+
+      // Acepta dous formatos de data no nome da carpeta:
+      //   YYYY-MM-DD ao principio: "2025-09-07 Xuvenil vs Narón"
+      //   DD-MM-YYYY ao final:     "Xuvenil vs Narón 14-09-2024"
+      const startMatch = name.match(/^(\d{4}-\d{2}-\d{2})\s*/);
+      const endMatch   = name.match(/\s*(\d{2})-(\d{2})-(\d{4})$/);
+
+      let date = '1970-01-01';
+      let titleRaw = name;
+      if (startMatch) {
+        date     = startMatch[1]!;
+        titleRaw = name.slice(startMatch[0].length).trim();
+      } else if (endMatch) {
+        date     = `${endMatch[3]}-${endMatch[2]}-${endMatch[1]}`;
+        titleRaw = name.slice(0, name.length - endMatch[0].length).trim();
+      }
 
       const photos = await listImages(folder.id);
       const drivePhotos: DrivePhoto[] = photos.map((f) => ({ id: f.id, name: f.name }));
