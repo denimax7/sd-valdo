@@ -1,0 +1,16 @@
+{
+  "open": true,
+  "formUrl": "/gl/club/contacto",
+  "textOpen": {
+    "gl": "Inscrición aberta · Únete á S.D. Valdoviño",
+    "es": "Inscripción abierta · Únete a la S.D. Valdoviño"
+  },
+  "textClosed": {
+    "gl": "Inscrición pechada · Consulta a próxima apertura",
+    "es": "Inscripción cerrada · Consulta la próxima apertura"
+  },
+  "ctaLabel": {
+    "gl": "Apuntarme",
+    "es": "Apuntarme"
+  }
+}

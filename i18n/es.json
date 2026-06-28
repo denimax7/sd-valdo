@@ -1,0 +1,181 @@
+{
+  "site": {
+    "name": "S.D. Valdoviño",
+    "tagline": "El fútbol de la Costa Ártabra",
+    "since": "Fundada en 1972"
+  },
+  "nav": {
+    "home": "Inicio",
+    "club": "El Club",
+    "teams": "Equipos",
+    "valdovino": "Valdoviño",
+    "calendar": "Calendario",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "open_menu": "Abrir menú",
+    "close_menu": "Cerrar menú",
+    "gallery": "Galería"
+  },
+  "club": {
+    "history": "Historia",
+    "facilities": "Instalaciones",
+    "board": "Directiva",
+    "staff": "Cuerpo técnico",
+    "contact": "Contacto"
+  },
+  "teams": {
+    "primer-equipo": "Primer Equipo",
+    "xuvenil": "Juvenil",
+    "cadete": "Cadete",
+    "infantil": "Infantil",
+    "alevin": "Alevín",
+    "benxamin": "Benjamín",
+    "prebenxamin": "Prebenjamín",
+    "veteranos": "Veteranos",
+    "all": "Todos los equipos"
+  },
+  "valdovino": {
+    "title": "Valdoviño",
+    "concello": "El municipio",
+    "beaches": "Playas y naturaleza",
+    "culture": "Cultura y fiestas"
+  },
+  "home": {
+    "hero": {
+      "kicker": "TEMPORADA 2026 · 2027",
+      "title": "El naranja vuelve a A Frouxeira",
+      "description": "Cincuenta y cuatro años defendiendo los colores de nuestro pueblo. La nueva temporada arranca con la ilusión intacta y la misma gente de siempre en la grada.",
+      "cta_primary": "Ver calendario",
+      "cta_secondary": "Conocer el club"
+    },
+    "next_match": {
+      "kicker": "Próximo partido",
+      "countdown": "Faltan",
+      "no_match": "No hay partidos programados en los próximos días.",
+      "view_details": "Detalles del partido",
+      "days": "días",
+      "hours": "horas",
+      "minutes": "min",
+      "seconds": "seg"
+    },
+    "results": {
+      "kicker": "Últimos resultados",
+      "title": "Cómo cerramos la 25-26",
+      "view_all": "Ver calendario completo"
+    },
+    "news": {
+      "kicker": "Actualidad",
+      "title": "Últimas noticias",
+      "view_all": "Todas las noticias"
+    },
+    "teams_section": {
+      "kicker": "La familia naranja",
+      "title": "Nuestros equipos",
+      "description": "Ocho categorías que comparten escudo, vestuario y camino hacia A Frouxeira."
+    },
+    "valdovino_section": {
+      "kicker": "Nuestra casa",
+      "title": "Valdoviño, orilla del mar",
+      "description": "Un municipio de la comarca de Ferrol con playas de surf mundial, laguna Natura 2000 y la fuerza de una villa pequeña que siente como propio cada gol.",
+      "cta": "Descubrir Valdoviño"
+    }
+  },
+  "match": {
+    "vs": "vs",
+    "matchday": "Jornada {n}",
+    "kickoff": "Saque inicial",
+    "venue": "Campo",
+    "directions": "Cómo llegar",
+    "add_to_calendar": "Añadir al calendario",
+    "status": {
+      "scheduled": "Programado",
+      "live": "En directo",
+      "finished": "Finalizado",
+      "postponed": "Aplazado",
+      "cancelled": "Cancelado"
+    },
+    "home_label": "Local",
+    "away_label": "Visitante"
+  },
+  "calendar": {
+    "title": "Calendario",
+    "subtitle": "Todos los partidos de las ocho categorías en una sola pantalla.",
+    "filters": {
+      "team": "Equipo",
+      "team_all": "Todos los equipos",
+      "month": "Mes",
+      "month_all": "Toda la temporada",
+      "side": "Dónde",
+      "side_all": "Todos",
+      "side_home": "En casa",
+      "side_away": "Fuera"
+    },
+    "view": {
+      "list": "Lista",
+      "month": "Mes"
+    },
+    "empty": "No hay partidos que coincidan con el filtro.",
+    "last_updated": "Última actualización: {date}"
+  },
+  "footer": {
+    "tagline": "Club deportivo de la villa de Valdoviño desde 1972.",
+    "follow": "Seguir al club",
+    "rights": "Todos los derechos reservados.",
+    "made_in": "Hecho en Valdoviño con orgullo.",
+    "columns": {
+      "club": "El Club",
+      "teams": "Equipos",
+      "valdovino": "Valdoviño",
+      "legal": "Legal"
+    },
+    "legal": {
+      "notice": "Aviso legal",
+      "privacy": "Privacidad",
+      "cookies": "Cookies"
+    }
+  },
+  "language": {
+    "switch_to_es": "Cambiar idioma a español",
+    "switch_to_gl": "Cambiar idioma a gallego",
+    "current": "Idioma actual: español"
+  },
+  "stubs": {
+    "construction": "En construcción",
+    "construction_text": "Esta sección estará disponible próximamente. Mientras tanto, puedes consultar el calendario o seguirnos en redes."
+  },
+  "bottombar": {
+    "calendar": "Calendario",
+    "teams": "Equipos",
+    "news": "Noticias",
+    "club": "Club"
+  },
+  "common": {
+    "read_more": "Leer más",
+    "view_all": "Ver todo",
+    "loading": "Cargando..."
+  },
+  "banner": {
+    "open_label": "Inscripción abierta",
+    "closed_label": "Inscripción cerrada",
+    "open_cta": "Apuntarme",
+    "close": "Cerrar aviso",
+    "live": "En vivo"
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Todas las fotos de esta temporada, organizadas por partido y evento.",
+    "kicker": "Archivo fotográfico",
+    "view_album": "Ver álbum",
+    "back": "Volver a la galería",
+    "photos": "{n} fotos",
+    "open_photo": "Ver foto en tamaño completo",
+    "prev": "Foto anterior",
+    "next": "Foto siguiente",
+    "close_lightbox": "Cerrar visor",
+    "empty": "Todavía no hay álbumes en la galería. Sube las primeras fotos a Drive y haz un redespliegue.",
+    "loading": "Cargando fotos…",
+    "home_kicker": "Últimas fotos",
+    "home_title": "Galería de la temporada",
+    "home_cta": "Ver todas las fotos"
+  }
+}

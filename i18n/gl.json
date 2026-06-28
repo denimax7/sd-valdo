@@ -1,0 +1,181 @@
+{
+  "site": {
+    "name": "S.D. Valdoviño",
+    "tagline": "O fútbol da Costa Ártabra",
+    "since": "Fundada en 1972"
+  },
+  "nav": {
+    "home": "Inicio",
+    "club": "O Club",
+    "teams": "Equipos",
+    "valdovino": "Valdoviño",
+    "calendar": "Calendario",
+    "news": "Novas",
+    "contact": "Contacto",
+    "open_menu": "Abrir menú",
+    "close_menu": "Pechar menú",
+    "gallery": "Galería"
+  },
+  "club": {
+    "history": "Historia",
+    "facilities": "Instalacións",
+    "board": "Directiva",
+    "staff": "Corpo técnico",
+    "contact": "Contacto"
+  },
+  "teams": {
+    "primer-equipo": "Primeiro Equipo",
+    "xuvenil": "Xuvenil",
+    "cadete": "Cadete",
+    "infantil": "Infantil",
+    "alevin": "Alevín",
+    "benxamin": "Benxamín",
+    "prebenxamin": "Prebenxamín",
+    "veteranos": "Veteranos",
+    "all": "Todos os equipos"
+  },
+  "valdovino": {
+    "title": "Valdoviño",
+    "concello": "O concello",
+    "beaches": "Praias e natureza",
+    "culture": "Cultura e festas"
+  },
+  "home": {
+    "hero": {
+      "kicker": "TEMPADA 2026 · 2027",
+      "title": "O laranxa volve á Frouxeira",
+      "description": "Cincuenta e catro anos defendendo as cores do noso pobo. A nova tempada comeza con ilusión renovada e a mesma xente de sempre nas bancadas.",
+      "cta_primary": "Ver calendario",
+      "cta_secondary": "Coñecer o club"
+    },
+    "next_match": {
+      "kicker": "Próximo partido",
+      "countdown": "Faltan",
+      "no_match": "Sen partidos programados nos vindeiros días.",
+      "view_details": "Detalles do partido",
+      "days": "días",
+      "hours": "horas",
+      "minutes": "min",
+      "seconds": "seg"
+    },
+    "results": {
+      "kicker": "Últimos resultados",
+      "title": "Como rematamos a 25-26",
+      "view_all": "Ver calendario completo"
+    },
+    "news": {
+      "kicker": "Actualidade",
+      "title": "Últimas novas",
+      "view_all": "Todas as novas"
+    },
+    "teams_section": {
+      "kicker": "A familia laranxa",
+      "title": "Os nosos equipos",
+      "description": "Oito categorías que comparten escudo, vestiario e camiño á Frouxeira."
+    },
+    "valdovino_section": {
+      "kicker": "A nosa casa",
+      "title": "Valdoviño, beira do mar",
+      "description": "Un concello da comarca de Ferrol con praias de surf mundial, lagoa Natura 2000 e a forza dunha vila pequena que sente como propio cada gol.",
+      "cta": "Descubrir Valdoviño"
+    }
+  },
+  "match": {
+    "vs": "vs",
+    "matchday": "Xornada {n}",
+    "kickoff": "Saque inicial",
+    "venue": "Campo",
+    "directions": "Como chegar",
+    "add_to_calendar": "Engadir ao calendario",
+    "status": {
+      "scheduled": "Programado",
+      "live": "En directo",
+      "finished": "Finalizado",
+      "postponed": "Adiado",
+      "cancelled": "Cancelado"
+    },
+    "home_label": "Local",
+    "away_label": "Visitante"
+  },
+  "calendar": {
+    "title": "Calendario",
+    "subtitle": "Todos os partidos das oito categorías nunha soa pantalla.",
+    "filters": {
+      "team": "Equipo",
+      "team_all": "Todos os equipos",
+      "month": "Mes",
+      "month_all": "Toda a tempada",
+      "side": "Onde",
+      "side_all": "Todos",
+      "side_home": "Na casa",
+      "side_away": "Fóra"
+    },
+    "view": {
+      "list": "Lista",
+      "month": "Mes"
+    },
+    "empty": "Sen partidos que coincidan co filtro.",
+    "last_updated": "Última actualización: {date}"
+  },
+  "footer": {
+    "tagline": "Club deportivo da vila de Valdoviño desde 1972.",
+    "follow": "Seguir o club",
+    "rights": "Todos os dereitos reservados.",
+    "made_in": "Feito en Valdoviño con orgullo.",
+    "columns": {
+      "club": "O Club",
+      "teams": "Equipos",
+      "valdovino": "Valdoviño",
+      "legal": "Legal"
+    },
+    "legal": {
+      "notice": "Aviso legal",
+      "privacy": "Privacidade",
+      "cookies": "Cookies"
+    }
+  },
+  "language": {
+    "switch_to_es": "Cambiar idioma a español",
+    "switch_to_gl": "Cambiar idioma a galego",
+    "current": "Idioma actual: galego"
+  },
+  "stubs": {
+    "construction": "En construción",
+    "construction_text": "Esta sección estará dispoñible en próximos días. Mentres tanto, podes consultar o calendario ou seguirnos nas redes."
+  },
+  "bottombar": {
+    "calendar": "Calendario",
+    "teams": "Equipos",
+    "news": "Novas",
+    "club": "Club"
+  },
+  "common": {
+    "read_more": "Ler máis",
+    "view_all": "Ver todo",
+    "loading": "Cargando..."
+  },
+  "banner": {
+    "open_label": "Inscrición aberta",
+    "closed_label": "Inscrición pechada",
+    "open_cta": "Apuntarme",
+    "close": "Pechar aviso",
+    "live": "Ao vivo"
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Todas as fotos desta tempada, organizadas por partido e evento.",
+    "kicker": "Arquivo fotográfico",
+    "view_album": "Ver álbum",
+    "back": "Voltar á galería",
+    "photos": "{n} fotos",
+    "open_photo": "Ver foto en tamaño completo",
+    "prev": "Foto anterior",
+    "next": "Foto seguinte",
+    "close_lightbox": "Pechar visor",
+    "empty": "Aínda non hai álbumes na galería. Sube as primeiras fotos ao Drive e fai un redespregamento.",
+    "loading": "Cargando fotos…",
+    "home_kicker": "Últimas fotos",
+    "home_title": "Galería da tempada",
+    "home_cta": "Ver todas as fotos"
+  }
+}

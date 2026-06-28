@@ -1,0 +1,6 @@
+[
+  { "team": "primer-equipo", "name": "Manuel Pico", "role": "Adestrador" },
+  { "team": "primer-equipo", "name": "Álvaro Seoane", "role": "Segundo adestrador" },
+  { "team": "primer-equipo", "name": "Tomás Liñares", "role": "Preparador físico" },
+  { "team": "primer-equipo", "name": "Inés Doval", "role": "Fisioterapeuta" }
+]

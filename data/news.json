@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "victoria-final-temporada-vs-cabanas",
+    "date": "2026-05-17",
+    "title": {
+      "gl": "Despedida na casa con goleada ante o Cabanas",
+      "es": "Despedida en casa con goleada ante el Cabanas"
+    },
+    "excerpt": {
+      "gl": "O primeiro equipo cerrou a tempada no Municipal con 4-2 fronte ao C.D. Cabanas e os afeccionados saíron en pé do campo.",
+      "es": "El primer equipo cerró la temporada en el Municipal con 4-2 frente al C.D. Cabanas y la afición salió en pie del campo."
+    },
+    "cover": "https://picsum.photos/seed/sdv-final-temporada/1600/900",
+    "category": "primer-equipo",
+    "featured": true
+  },
+  {
+    "slug": "presentacion-pretemporada-julio",
+    "date": "2026-06-22",
+    "title": {
+      "gl": "A pretemporada arranca o 14 de xullo",
+      "es": "La pretemporada arranca el 14 de julio"
+    },
+    "excerpt": {
+      "gl": "O corpo técnico convocou aos xogadores para iniciar a preparación da nova campaña con tres semanas de traballo no Municipal.",
+      "es": "El cuerpo técnico ha convocado a los jugadores para iniciar la preparación de la nueva campaña con tres semanas de trabajo en el Municipal."
+    },
+    "cover": "https://picsum.photos/seed/sdv-pretemporada/1600/900",
+    "category": "club",
+    "featured": false
+  },
+  {
+    "slug": "renovacion-manuel-pico",
+    "date": "2026-06-10",
+    "title": {
+      "gl": "Manuel Pico renova como adestrador para a 26-27",
+      "es": "Manuel Pico renueva como entrenador para la 26-27"
+    },
+    "excerpt": {
+      "gl": "O técnico continúa ao mando do primeiro equipo despois dunha tempada na que asentou a identidade do proxecto.",
+      "es": "El técnico continúa al mando del primer equipo tras una temporada en la que asentó la identidad del proyecto."
+    },
+    "cover": "https://picsum.photos/seed/sdv-pico-renovacion/1600/900",
+    "category": "club",
+    "featured": false
+  },
+  {
+    "slug": "escola-veran-fronte-a-frouxeira",
+    "date": "2026-06-18",
+    "title": {
+      "gl": "Abertas as inscricións da Escola de Verán fronte á Frouxeira",
+      "es": "Abiertas las inscripciones de la Escuela de Verano frente a la Frouxeira"
+    },
+    "excerpt": {
+      "gl": "Do 1 ao 26 de xullo, nenas e nenos de entre 5 e 12 anos poderán adestrar todas as mañás co corpo técnico das bases.",
+      "es": "Del 1 al 26 de julio, niñas y niños de entre 5 y 12 años podrán entrenar todas las mañanas con el cuerpo técnico de la base."
+    },
+    "cover": "https://picsum.photos/seed/sdv-escola-veran/1600/900",
+    "category": "base",
+    "featured": false
+  }
+]

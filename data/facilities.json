@@ -1,0 +1,15 @@
+{
+  "main": {
+    "name": "Campo Municipal de Valdoviño",
+    "address": "Estrada da Frouxeira s/n, 15552 Valdoviño",
+    "lat": 43.6019,
+    "lng": -8.1342,
+    "capacity": 800,
+    "surface": "Herba artificial",
+    "photos": [
+      "https://picsum.photos/seed/valdovino-campo-1/1600/900",
+      "https://picsum.photos/seed/valdovino-campo-2/1600/900",
+      "https://picsum.photos/seed/valdovino-campo-3/1600/900"
+    ]
+  }
+}

@@ -1,116 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="S.D. Valdoviño">
   <defs>
-    <!-- Degradado cielo -->
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#5bb8e8"/>
-      <stop offset="60%" stop-color="#a8d8f0"/>
-      <stop offset="100%" stop-color="#c8e8f5"/>
-    </linearGradient>
-    <!-- Degradado tierra/agua -->
-    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2e7d32"/>
-      <stop offset="100%" stop-color="#1a5e20"/>
-    </linearGradient>
-    <!-- Clip para el círculo interior -->
-    <clipPath id="circle-clip">
-      <circle cx="100" cy="112" r="46"/>
+    <clipPath id="shield">
+      <path d="M50 4 L92 22 L86 64 Q86 80 50 96 Q14 80 14 64 L8 22 Z"/>
     </clipPath>
   </defs>
-
-  <!-- ============================================
-       MARCO EXTERIOR — doble V roja/naranja
-       ============================================ -->
-  <!-- Brazo izquierdo externo -->
-  <polygon points="5,5 35,5 100,140 65,140" fill="#CC0000" stroke="white" stroke-width="1.5"/>
-  <!-- Brazo derecho externo -->
-  <polygon points="195,5 165,5 100,140 135,140" fill="#CC0000" stroke="white" stroke-width="1.5"/>
-  <!-- Hueco central superior (corte interior del brazo izq) -->
-  <polygon points="20,5 35,5 100,125 85,125" fill="#DD2200"/>
-  <!-- Naranjas internos para dar sensación de relieve -->
-  <!-- Sombra interior brazo izquierdo -->
-  <polygon points="20,5 35,5 95,128 80,128" fill="#E53300" opacity="0.6"/>
-  <!-- Sombra interior brazo derecho -->
-  <polygon points="180,5 165,5 105,128 120,128" fill="#E53300" opacity="0.6"/>
-
-  <!-- Vértice inferior de la V -->
-  <polygon points="90,135 110,135 105,155 95,155" fill="#CC0000"/>
-
-  <!-- ============================================
-       BORDE VERDE del círculo central
-       ============================================ -->
-  <circle cx="100" cy="112" r="56" fill="#1B6B1A" stroke="white" stroke-width="1.5"/>
-  <!-- Texto circular "S.D. VALDOVINO" -->
-  <path id="top-arc"    d="M 50,112 A 50,50 0 0,1 150,112" fill="none"/>
-  <path id="bottom-arc" d="M 55,112 A 45,45 0 0,0 145,112" fill="none"/>
-  <text font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="white" letter-spacing="1.5">
-    <textPath href="#top-arc" startOffset="50%" text-anchor="middle">S.D. VALDOVIÑO</textPath>
-  </text>
-  <text font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="white" letter-spacing="1">
-    <textPath href="#bottom-arc" startOffset="50%" text-anchor="middle">GALICIA · ESPAÑA</textPath>
-  </text>
-
-  <!-- ============================================
-       INTERIOR DEL CÍRCULO — paisaje costero
-       ============================================ -->
-  <!-- Fondo cielo -->
-  <circle cx="100" cy="112" r="46" fill="url(#sky)"/>
-
-  <!-- Montaña/colina verde -->
-  <ellipse cx="80"  cy="140" rx="40" ry="20" fill="#2e7d32" clip-path="url(#circle-clip)"/>
-  <ellipse cx="120" cy="145" rx="35" ry="18" fill="#1a5e20" clip-path="url(#circle-clip)"/>
-
-  <!-- Franja de agua (lagoa / mar) -->
-  <rect x="54" y="130" width="92" height="12" fill="#1565C0" clip-path="url(#circle-clip)" opacity="0.8"/>
-  <rect x="54" y="138" width="92" height="8"  fill="#0D47A1" clip-path="url(#circle-clip)" opacity="0.7"/>
-
-  <!-- Destellos de agua -->
-  <line x1="62" y1="134" x2="72" y2="134" stroke="white" stroke-width="0.8" opacity="0.5" clip-path="url(#circle-clip)"/>
-  <line x1="80" y1="136" x2="95" y2="136" stroke="white" stroke-width="0.8" opacity="0.5" clip-path="url(#circle-clip)"/>
-  <line x1="110" y1="133" x2="128" y2="133" stroke="white" stroke-width="0.8" opacity="0.4" clip-path="url(#circle-clip)"/>
-
-  <!-- Arena/playa clara -->
-  <ellipse cx="100" cy="152" rx="46" ry="14" fill="#C8A96E" clip-path="url(#circle-clip)" opacity="0.9"/>
-
-  <!-- ============================================
-       ANILLOS OLÍMPICOS (dentro del círculo)
-       ============================================ -->
-  <g clip-path="url(#circle-clip)">
-    <!-- Fila superior: azul, negro, rojo -->
-    <circle cx="82"  cy="122" r="5" fill="none" stroke="#0085C7" stroke-width="1.8"/>
-    <circle cx="93"  cy="122" r="5" fill="none" stroke="#000000" stroke-width="1.8"/>
-    <circle cx="104" cy="122" r="5" fill="none" stroke="#DF0024" stroke-width="1.8"/>
-    <!-- Fila inferior: amarillo, verde -->
-    <circle cx="87.5" cy="127" r="5" fill="none" stroke="#F4C300" stroke-width="1.8"/>
-    <circle cx="98.5" cy="127" r="5" fill="none" stroke="#009F6B" stroke-width="1.8"/>
+  <path d="M50 4 L92 22 L86 64 Q86 80 50 96 Q14 80 14 64 L8 22 Z" fill="#E85D04"/>
+  <g clip-path="url(#shield)">
+    <path d="M-10 60 Q25 50 50 60 T120 58 L120 110 L-10 110 Z" fill="#FFFFFF" opacity="0.18"/>
+    <path d="M-10 72 Q20 64 50 72 T120 70 L120 110 L-10 110 Z" fill="#FFFFFF" opacity="0.12"/>
   </g>
-
-  <!-- ============================================
-       BALÓN + LAUREL (arriba del escudo)
-       ============================================ -->
-  <!-- Ramas de laurel -->
-  <g fill="#2e7d32">
-    <!-- Rama izquierda -->
-    <ellipse cx="76" cy="15" rx="7" ry="3.5" transform="rotate(-40 76 15)"/>
-    <ellipse cx="69" cy="22" rx="7" ry="3.5" transform="rotate(-30 69 22)"/>
-    <ellipse cx="65" cy="31" rx="7" ry="3.5" transform="rotate(-15 65 31)"/>
-    <!-- Rama derecha -->
-    <ellipse cx="124" cy="15" rx="7" ry="3.5" transform="rotate(40 124 15)"/>
-    <ellipse cx="131" cy="22" rx="7" ry="3.5" transform="rotate(30 131 22)"/>
-    <ellipse cx="135" cy="31" rx="7" ry="3.5" transform="rotate(15 135 31)"/>
-  </g>
-  <!-- Balón de fútbol -->
-  <circle cx="100" cy="18" r="14" fill="white" stroke="#333" stroke-width="1"/>
-  <!-- Pentagono central negro -->
-  <polygon points="100,10 107,15 104,23 96,23 93,15" fill="#222"/>
-  <!-- Parches hexagonales alrededor -->
-  <line x1="100" y1="10" x2="100" y2="4"  stroke="#555" stroke-width="0.8"/>
-  <line x1="107" y1="15" x2="113" y2="12" stroke="#555" stroke-width="0.8"/>
-  <line x1="104" y1="23" x2="108" y2="29" stroke="#555" stroke-width="0.8"/>
-  <line x1="96"  y1="23" x2="92"  y2="29" stroke="#555" stroke-width="0.8"/>
-  <line x1="93"  y1="15" x2="87"  y2="12" stroke="#555" stroke-width="0.8"/>
-  <circle cx="100" cy="4"  r="4" fill="none" stroke="#555" stroke-width="0.6"/>
-  <circle cx="113" cy="12" r="4" fill="none" stroke="#555" stroke-width="0.6"/>
-  <circle cx="108" cy="29" r="4" fill="none" stroke="#555" stroke-width="0.6"/>
-  <circle cx="92"  cy="29" r="4" fill="none" stroke="#555" stroke-width="0.6"/>
-  <circle cx="87"  cy="12" r="4" fill="none" stroke="#555" stroke-width="0.6"/>
+  <text x="50" y="48" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" letter-spacing="1">SDV</text>
+  <text x="50" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">VALDOVIÑO</text>
+  <path d="M50 4 L92 22 L86 64 Q86 80 50 96 Q14 80 14 64 L8 22 Z" fill="none" stroke="#6F1D04" stroke-width="2"/>
 </svg>
