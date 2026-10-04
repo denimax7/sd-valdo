@@ -17,63 +17,83 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
 const data = {
   gl: {
     intro:
-      'A S.D. Valdoviño é un dos clubs de fútbol máis queridos de Ferrolterra. Dende a súa fundación, representou con orgullo ao concello de Valdoviño no fútbol galego, forxando xeracións de xogadores e creando comunidade ao redor do deporte.',
+      'A S.D. Valdoviño é un club de fútbol con historia no concello de Valdoviño. Dende as súas orixes como equipo afeccionado sen federar, pasando pola súa inscrición oficial en 1996, ata a actual Escola de Fútbol, o club medra e constrúe comunidade ao redor do deporte.',
     milestones: [
       {
-        year: '1967',
-        title: 'Fundación',
-        text: 'Nace a Sociedade Deportiva Valdoviño da man dun grupo de afeccionados comprometidos co deporte local. O Campo Municipal convértese no fogar do novo club, que adopta a camiseta laranxa como símbolo de identidade.',
+        year: 'Orixes',
+        title: 'Os comezos',
+        text: 'Un grupo de veciños de Valdoviño xúntanse para xogar ao fútbol representando ao seu concello de forma afeccionada e sen federar. O equipo enfrontábase a outros clubs da comarca de Ferrolterra, forxando os primeiros lazos entre o fútbol e a comunidade local.',
       },
       {
-        year: 'Décadas 70–80',
-        title: 'Crecemento e canteira',
-        text: 'O club aposta pola formación e crea os primeiros equipos de base. A canteira empieza a forxar xogadores que máis tarde defenderán os colores do primeiro equipo, consolidando o ADN do club.',
+        year: 'Décadas 80–1996',
+        title: 'Competicións comarcais',
+        text: 'O clube continúa participando en competicións non federadas da comarca de Ferrolterra. Durante estes anos só se conta cun equipo na categoría senior, que vai consolidando a identidade deportiva do concello.',
       },
       {
-        year: 'Anos 90–2000',
-        title: 'Consolidación deportiva',
-        text: 'A S.D. Valdoviño consolídase nas categorías rexionais de FUTGAL e convértese en referente no fútbol da comarca de Ferrolterra. O club crece en número de socios e afección.',
+        year: '1996',
+        title: 'Inscrición oficial',
+        text: 'O clube inscríbese no Rexistro de Clubes e Fundacións e Entidades Deportivas de Galicia e comeza a participar en competicións federadas, inicialmente nas categorías senior e xuvenil. O equipo entrena primeiro no campo de San Bartolo e logo trasládase ao campo de "Atios", preto do colexio.',
       },
       {
-        year: '2010–2020',
-        title: 'Expansión de categorías',
-        text: 'O clube expande a súa estrutura con novos equipos de base: fútbol sala, prebenxamín, benxamín, e potencia o fútbol feminino. O número de fichas inscritas alcanza máximos históricos.',
+        year: '2000–2020',
+        title: 'Competición FUTGAL',
+        text: 'O equipo senior continúa competindo nas categorías locais 1ª FUTGAL, 2ª FUTGAL e 3ª FUTGAL en diferentes anos, mantendo a presenza do concello de Valdoviño no fútbol galego.',
+      },
+      {
+        year: '2024',
+        title: 'Retorno do equipo xuvenil',
+        text: 'Grazas a un grupo de mozos, a maioría deles veciños do concello, retómase o equipo xuvenil. Os resultados non se fan esperar: excelente tempada 2024-2025, alcanzando a final da Copa de Consolación da Delegación da RFGF en Ferrol.',
+      },
+      {
+        year: '2025',
+        title: 'Nace a Escola de Fútbol',
+        text: 'Tempada moi importante para o clube: nace a Escola de Fútbol co fútbol base. Neste primeiro ano compítese nas categorías de Fútbol 8 Prebenxamín, Benxamín e Alevín.',
       },
       {
         year: '2025–2026',
         title: 'Tempada actual',
-        text: 'A S.D. Valdoviño afronta a tempada 2025-2026 na Primeira FUTGAL Grupo I coa ilusión renovada. Oito equipos, centos de xogadores e toda a afección detrás dunha mesma paixón.',
+        text: 'Afrontamos esta nova tempada con moitísima ilusión e tratando de crecer paso a paso, consolidando os equipos existentes e tratando de avanzar nas categorías infantil e cadete.',
       },
     ],
   },
   es: {
     intro:
-      'La S.D. Valdoviño es uno de los clubs de fútbol más queridos de Ferrolterra. Desde su fundación, ha representado con orgullo al municipio de Valdoviño en el fútbol gallego, forjando generaciones de jugadores y creando comunidad alrededor del deporte.',
+      'La S.D. Valdoviño es un club de fútbol con historia en el municipio de Valdoviño. Desde sus orígenes como equipo aficionado sin federar, pasando por su inscripción oficial en 1996, hasta la actual Escola de Fútbol, el club crece y construye comunidad alrededor del deporte.',
     milestones: [
       {
-        year: '1967',
-        title: 'Fundación',
-        text: 'Nace la Sociedad Deportiva Valdoviño de la mano de un grupo de aficionados comprometidos con el deporte local. El Campo Municipal se convierte en el hogar del nuevo club, que adopta la camiseta naranja como símbolo de identidad.',
+        year: 'Orígenes',
+        title: 'Los comienzos',
+        text: 'Un grupo de vecinos de Valdoviño se juntan para jugar al fútbol representando a su municipio de forma aficionada y sin federar. El equipo se enfrentaba a otros clubs de la comarca de Ferrolterra, forjando los primeros lazos entre el fútbol y la comunidad local.',
       },
       {
-        year: 'Décadas 70–80',
-        title: 'Crecimiento y cantera',
-        text: 'El club apuesta por la formación y crea los primeros equipos de base. La cantera empieza a forjar jugadores que más tarde defenderán los colores del primer equipo, consolidando el ADN del club.',
+        year: 'Décadas 80–1996',
+        title: 'Competiciones comarcales',
+        text: 'El club continúa participando en competiciones no federadas de la comarca de Ferrolterra. Durante estos años solo se cuenta con un equipo en la categoría senior, que va consolidando la identidad deportiva del municipio.',
       },
       {
-        year: 'Años 90–2000',
-        title: 'Consolidación deportiva',
-        text: 'La S.D. Valdoviño se consolida en las categorías regionales de FUTGAL y se convierte en referente en el fútbol de la comarca de Ferrolterra. El club crece en número de socios y afición.',
+        year: '1996',
+        title: 'Inscripción oficial',
+        text: 'El club se inscribe en el Rexistro de Clubes e Fundacións e Entidades Deportivas de Galicia y comienza a participar en competiciones federadas, inicialmente en las categorías senior y juvenil. El equipo entrena primero en el campo de San Bartolo y luego se traslada al campo de "Atios", cerca del colegio.',
       },
       {
-        year: '2010–2020',
-        title: 'Expansión de categorías',
-        text: 'El club expande su estructura con nuevos equipos de base: fútbol sala, prebenjamín, benjamín, y potencia el fútbol femenino. El número de fichas inscritas alcanza máximos históricos.',
+        year: '2000–2020',
+        title: 'Competición FUTGAL',
+        text: 'El equipo senior continúa compitiendo en las categorías locales 1ª FUTGAL, 2ª FUTGAL y 3ª FUTGAL en diferentes años, manteniendo la presencia del municipio de Valdoviño en el fútbol gallego.',
+      },
+      {
+        year: '2024',
+        title: 'Retorno del equipo juvenil',
+        text: 'Gracias a un grupo de jóvenes, la mayoría de ellos vecinos del municipio, se retoma el equipo juvenil. Los resultados no se hacen esperar: excelente temporada 2024-2025, alcanzando la final de la Copa de Consolación de la Delegación de la RFGF en Ferrol.',
+      },
+      {
+        year: '2025',
+        title: 'Nace la Escola de Fútbol',
+        text: 'Temporada muy importante para el club: nace la Escola de Fútbol con el fútbol base. En este primer año se compite en las categorías de Fútbol 8 Prebenjamín, Benjamín y Alevín.',
       },
       {
         year: '2025–2026',
         title: 'Temporada actual',
-        text: 'La S.D. Valdoviño afronta la temporada 2025-2026 en la Primera FUTGAL Grupo I con la ilusión renovada. Ocho equipos, cientos de jugadores y toda la afición detrás de una misma pasión.',
+        text: 'Afrontamos esta nueva temporada con muchísima ilusión y tratando de crecer paso a paso, consolidando los equipos existentes y tratando de avanzar en las categorías infantil y cadete.',
       },
     ],
   },

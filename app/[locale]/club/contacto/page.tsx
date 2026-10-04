@@ -1,4 +1,4 @@
-import { MapPin, Mail, Instagram, Twitter, Camera } from 'lucide-react';
+import { MapPin, Mail, Phone, Instagram, Twitter, Camera } from 'lucide-react';
 import { SectionHeader } from '@/components/common/SectionHeader';
 import { LOCALES, type Locale, isLocale } from '@/lib/locales';
 import { createT } from '@/lib/i18n';
@@ -18,16 +18,26 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
 const content = {
   gl: {
     description: 'Ponte en contacto connosco para calquera consulta sobre o club, inscricións ou eventos.',
-    address: 'Estrada da Frouxeira s/n, 15552 Valdoviño, A Coruña',
-    email: 'info@sdvaldovino.gal',
+    address: 'Lugar de Mourente, 34, 15552 Valdoviño, A Coruña',
+    email: 'sdvaldovino7@gmail.com',
+    phones: [
+      { label: 'Contacto xeral', number: '664 12 01 95' },
+      { label: 'Contacto xeral', number: '649 29 83 82' },
+      { label: 'Director Deportivo', number: '629 32 48 63' },
+    ],
     fotosTitle: 'Tes fotos nosas?',
     fotosText: 'Se tes fotos dos nosos partidos ou eventos, envíaas e compartirémolos na nosa comunidade.',
     fotosCta: 'Enviar fotos',
   },
   es: {
     description: 'Ponte en contacto con nosotros para cualquier consulta sobre el club, inscripciones o eventos.',
-    address: 'Estrada da Frouxeira s/n, 15552 Valdoviño, A Coruña',
-    email: 'info@sdvaldovino.gal',
+    address: 'Lugar de Mourente, 34, 15552 Valdoviño, A Coruña',
+    email: 'sdvaldovino7@gmail.com',
+    phones: [
+      { label: 'Contacto general', number: '664 12 01 95' },
+      { label: 'Contacto general', number: '649 29 83 82' },
+      { label: 'Director Deportivo', number: '629 32 48 63' },
+    ],
     fotosTitle: '¿Tienes fotos nuestras?',
     fotosText: 'Si tienes fotos de nuestros partidos o eventos, envíanoslas y las compartiremos con la comunidad.',
     fotosCta: 'Enviar fotos',
@@ -84,6 +94,24 @@ export default function ContactoPage({ params }: { params: { locale: string } })
                 <p className="mt-0.5 text-sm text-ink">{c.email}</p>
               </div>
             </a>
+
+            <div className="flex flex-col gap-2">
+              {c.phones.map((p) => (
+                <a
+                  key={p.number}
+                  href={`tel:+34${p.number.replace(/\s/g, '')}`}
+                  className="group flex items-start gap-3 rounded border border-border p-4 hover:border-primary hover:bg-primary-100 transition-colors"
+                >
+                  <Phone className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden />
+                  <div>
+                    <p className="font-kicker text-xs font-bold uppercase tracking-wider text-primary-700">
+                      {p.label}
+                    </p>
+                    <p className="mt-0.5 text-sm text-ink">{p.number}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Social */}

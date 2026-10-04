@@ -1,8 +1,10 @@
 [
-  { "name": "Xosé Manuel Rilo", "role": "Presidente", "since": "2022" },
-  { "name": "Carmen Vázquez", "role": "Vicepresidenta", "since": "2022" },
-  { "name": "Roberto Crespo", "role": "Secretario", "since": "2022" },
-  { "name": "María Naveira", "role": "Tesoureira", "since": "2023" },
-  { "name": "Luis Pita", "role": "Director Deportivo", "since": "2024" },
-  { "name": "Sara Bouzas", "role": "Vogal de Comunicación", "since": "2024" }
+  { "name": "José A. Testa Rodríguez", "role": "Presidente", "since": "2026" },
+  { "name": "Miguel A. Rey Bouzamayor", "role": "Vicepresidente", "since": "2026" },
+  { "name": "Alejandro Vigo Rodríguez", "role": "Secretario", "since": "2026" },
+  { "name": "José A. Cortizas Díaz", "role": "Tesoureiro", "since": "2026" },
+  { "name": "Eloy Ogando Rey", "role": "Vogal", "since": "2026" },
+  { "name": "Martín López García", "role": "Vogal", "since": "2026" },
+  { "name": "Marcos López Carnota", "role": "Vogal", "since": "2026" },
+  { "name": "José Carlos Teijeiro Freire", "role": "Director Deportivo", "since": "2026" }
 ]

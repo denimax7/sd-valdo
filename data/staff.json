@@ -1,6 +1,15 @@
 [
-  { "team": "primer-equipo", "name": "Manuel Pico", "role": "Adestrador" },
-  { "team": "primer-equipo", "name": "Álvaro Seoane", "role": "Segundo adestrador" },
-  { "team": "primer-equipo", "name": "Tomás Liñares", "role": "Preparador físico" },
-  { "team": "primer-equipo", "name": "Inés Doval", "role": "Fisioterapeuta" }
+  { "team": "primer-equipo", "name": "Gonzalo Palmeiro Sampayo", "role": "Adestrador" },
+  { "team": "primer-equipo", "name": "Martín López García", "role": "2º Adestrador" },
+  { "team": "primer-equipo", "name": "David Rodríguez Fresco", "role": "Delegado" },
+  { "team": "veteranos", "name": "Miguel Rey Bouzamayor", "role": "Adestrador" },
+  { "team": "veteranos", "name": "Miguel Rey Bouzamayor", "role": "Delegado" },
+  { "team": "xuvenil", "name": "José Andrés López Piñón", "role": "Adestrador" },
+  { "team": "xuvenil", "name": "José A. Cortizas Díaz", "role": "Delegado" },
+  { "team": "alevin", "name": "Martín López García", "role": "Adestrador" },
+  { "team": "alevin", "name": "Iván González Somanto", "role": "Delegado" },
+  { "team": "benxamin", "name": "Beltran Teijeiro López", "role": "Adestrador" },
+  { "team": "benxamin", "name": "Cristobal Vigo Grandal", "role": "Delegado" },
+  { "team": "prebenxamin", "name": "Ainara", "role": "Adestradora" },
+  { "team": "prebenxamin", "name": "Aarón Dopico Pita", "role": "Delegado" }
 ]
